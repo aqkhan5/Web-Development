@@ -1,0 +1,6 @@
+{
+  "name": "FitForge",
+  "description": "Elite human coaching and AI-driven performance metrics training platform for standard athletes and FitForge members.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

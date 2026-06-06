@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitForge | Elite Biometric & AI Athletic Performance Coach</title>
+  </head>
+  <body>
+    <div id="root">
+      <!-- High-fidelity local helper overlay when loaded via file:// protocol directly -->
+      <div id="file-protocol-helper" style="display: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; min-height: 100vh; background: #121417; color: #ffffff; padding: 40px 20px; box-sizing: border-box; justify-content: center; align-items: center; width: 100vw; position: fixed; inset: 0; z-index: 99999;">
+        <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(160, 243, 212, 0.2); max-width: 600px; padding: 40px; border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); text-align: center;">
+          <div style="font-size: 48px; margin-bottom: 20px;">⚡</div>
+          <h2 style="font-size: 24px; font-weight: 800; text-transform: uppercase; letter-spacing: -0.5px; margin: 0 0 16px 0; color: #a0f3d4; font-family: 'Hanken Grotesk', sans-serif;">FitForge Peak Performance</h2>
+          <p style="font-size: 15px; color: #cccccc; line-height: 1.6; margin: 0 0 24px 0;">
+            You opened <strong style="color: #ffffff;">index.html</strong> directly from your file system explorer. Web browsers block local assets and module scripts under the <code style="color: #e1f5ee; background: rgba(255,255,255,0.1); padding: 1px 4px;">file://</code> protocol for high-performance security reasons.
+          </p>
+          
+          <div style="background: rgba(0, 0, 0, 0.3); border-radius: 8px; padding: 20px; text-align: left; margin-bottom: 24px;">
+            <p style="font-size: 13px; font-family: monospace; color: #a0f3d4; margin: 0 0 10px 0; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">&gt;_ TO RUN LOCALLY IN YOUR BROWSER:</p>
+            <ol style="font-size: 13px; color: #e1f5ee; margin: 0; padding-left: 20px; line-height: 1.8;">
+              <li>Install packages by typing <code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; font-family: monospace; color: #ffffff;">npm install</code> in your directory.</li>
+              <li>Launch the server by executing <code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; font-family: monospace; color: #ffffff;">npm run dev</code>.</li>
+              <li>Open the browser port URL at <a href="http://localhost:3000" style="color: #a0f3d4; font-weight: bold; text-decoration: underline;">http://localhost:3000</a>.</li>
+            </ol>
+          </div>
+          
+          <p style="font-size: 11px; color: #777777; margin: 0; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 600;">
+            © FitForge Performance Centers • Bio-tracking Platform
+          </p>
+        </div>
+      </div>
+      
+      <script>
+        if (window.location.protocol === 'file:') {
+          document.getElementById('file-protocol-helper').style.display = 'flex';
+        }
+      </script>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
